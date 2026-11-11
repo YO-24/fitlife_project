@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FitLife | Nuestras Sedes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Montserrat', sans-serif; }</style>
+</head>
+<body class="bg-zinc-100 text-zinc-900">
+    <!-- Navbar (Enlaces a páginas reales) -->
+    <nav class="bg-black text-white p-4 sticky top-0 z-50 border-b border-zinc-800 shadow-xl">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-4">
+            <a href="/" class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-yellow-400 rounded-sm transform rotate-45"></div>
+                <h1 class="text-3xl font-black tracking-tighter italic">FIT<span class="text-yellow-400">LIFE</span></h1>
+            </a>
+            <div class="hidden md:flex gap-6 font-bold text-sm uppercase tracking-wider">
+                <a href="/gimnasios/" class="text-yellow-400">Gimnasios</a>
+                <a href="/tuespacio/" class="hover:text-yellow-400 transition">Tu espacio</a>
+                <a href="/app/" class="hover:text-yellow-400 transition">App</a>
+                <a href="/#planes" class="hover:text-yellow-400 transition">Planes</a>
+            </div>
+            <div class="flex gap-4">
+                <a href="/login/" class="border-2 border-zinc-600 hover:border-white px-5 py-2 rounded-full font-bold text-sm transition">Iniciar Sesión</a>
+                <a href="/registro/" class="bg-yellow-400 text-black hover:bg-yellow-500 px-5 py-2 rounded-full font-bold text-sm transition">Registrarte</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Grilla de Sedes con Imágenes -->
+    <section class="py-20 max-w-7xl mx-auto px-4">
+        <h2 class="text-5xl font-black uppercase text-center mb-12 tracking-tight">Encuentra tu <span class="text-yellow-500">Sede</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Tarjeta Santiago -->
+            <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-60 group-hover:bg-opacity-40 transition flex items-center justify-center">
+                    <h4 class="text-white font-black text-3xl uppercase tracking-widest border-2 border-yellow-400 px-6 py-2 rounded-lg">Santiago</h4>
+                </div>
+            </div>
+
+            <!-- Tarjeta Talca -->
+            <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1470&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-60 group-hover:bg-opacity-40 transition flex items-center justify-center">
+                    <h4 class="text-white font-black text-3xl uppercase tracking-widest border-2 border-yellow-400 px-6 py-2 rounded-lg">Talca</h4>
+                </div>
+            </div>
+
+            <!-- Tarjeta Temuco -->
+            <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1470&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-60 group-hover:bg-opacity-40 transition flex items-center justify-center">
+                    <h4 class="text-white font-black text-3xl uppercase tracking-widest border-2 border-yellow-400 px-6 py-2 rounded-lg">Temuco</h4>
+                </div>
+            </div>
+
+            <!-- Tarjeta Valparaíso -->
+            <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1470&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-60 group-hover:bg-opacity-40 transition flex items-center justify-center">
+                    <h4 class="text-white font-black text-3xl uppercase tracking-widest border-2 border-yellow-400 px-6 py-2 rounded-lg">Valparaíso</h4>
+                </div>
+            </div>
+
+            <!-- Tarjeta Viña del Mar -->
+            <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1470&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-60 group-hover:bg-opacity-40 transition flex items-center justify-center">
+                    <h4 class="text-white font-black text-3xl uppercase tracking-widest border-2 border-yellow-400 px-6 py-2 rounded-lg">Viña del Mar</h4>
+                </div>
+            </div>
+
+            <!-- Tarjeta Arica -->
+            <div class="relative h-72 rounded-3xl overflow-hidden shadow-xl group cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=1471&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-60 group-hover:bg-opacity-40 transition flex items-center justify-center">
+                    <h4 class="text-white font-black text-3xl uppercase tracking-widest border-2 border-yellow-400 px-6 py-2 rounded-lg">Arica</h4>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
